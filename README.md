@@ -16,7 +16,7 @@ It allows you to store:
 
 inside 512×512 RGB images, which are then exported as a video file .mkv format.
 
-![Frame example ](frame_000000.png "Frame example")
+![Frame example ](examples/frame_000000.png "Frame example")
 
 Each image corresponds to a frame of the video; 512 x 512 pixels are equivalent to 262,144 characters. The video has 60 frames per second, which is equivalent to more than 15 million characters in one second of video!
 
@@ -119,7 +119,7 @@ Com ele é possível armazenar:
 
 dentro de imagens pequenas (512×512 pixels), gerando um vídeo contendo a informação.
 
-![Frame example ](frame_000000.png "Frame example")
+![Frame example ](examples/frame_000000.png "Frame example")
 
 ada imagem corresponde a um fotograma do vídeo; 512 x 512 pixéis equivalem a 262.144 caracteres. O vídeo tem 60 fotogramas por segundo, o que equivale a mais de 15 milhões de caracteres num segundo de vídeo!
 
@@ -214,7 +214,7 @@ Permite almacenar:
 
 dentro de imágenes 512×512, que luego se exportan como un video.
 
-![Frame example ](frame_000000.png "Frame example")
+![Frame example ](examples/frame_000000.png "Frame example")
 
 Cada imagen corresponde a un frame del video, 512 x 512 pixels equivalen a 262144 caracteres, el video tiene 60 frames por segundo lo que equivale a más de 15 millones de caracteres en un segundo de video!
 
