@@ -98,6 +98,8 @@ Output example:
 }
 ```
 
+See [Example demo_mixgram.py](/examples/demo_mixgram.py) to using an external data and find the best chunk.
+
 ----------------------------------------------
 
 # MixGram (🇧🇷) #
@@ -190,6 +192,8 @@ encode_video(
 result = decode_video("saida.mkv")
 print(result["texto_reconstruido"])
 ```
+
+Veja [Example demo_mixgram.py](/examples/demo_mixgram.py) para entender como usar com informações num arquivo TXT e encontrar o melhor chunk por acuracidade.
 
 ----------------------------------------------
 
@@ -285,3 +289,5 @@ encode_video(
 result = decode_video("salida.mkv")
 print(result["texto_reconstruido"])
 ```
+
+Vea en [Example demo_mixgram.py](/examples/demo_mixgram.py) para entender como usar importando informaciones de un archivo TXT y encontrar el mejor chunk por similaridad.
