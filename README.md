@@ -78,7 +78,7 @@ python cli.py decode \
 
 ## 🐍 Using MixGram in Python ## 
 
-```
+```python
 from mixgram.api import encode_video, decode_video
 
 encode_video(
@@ -181,7 +181,7 @@ python cli.py decode \
 
 ## 🐍 Usando no Python ## 
 
-```
+```python
 from mixgram.api import encode_video, decode_video
 
 encode_video(
@@ -191,6 +191,14 @@ encode_video(
 
 result = decode_video("saida.mkv")
 print(result["texto_reconstruido"])
+
+Output example:
+
+{
+  "chunks": ["Testando MixGram"],
+  "embeddings": [...],
+  "texto_reconstruido": "Testando MixGram"
+}
 ```
 
 Veja [Example demo_mixgram.py](/examples/demo_mixgram.py) para entender como usar com informações num arquivo TXT e encontrar o melhor chunk por acuracidade.
@@ -278,7 +286,7 @@ python cli.py decode \
 
 ## 🐍 Uso desde Python ## 
 
-```
+```python
 from mixgram.api import encode_video, decode_video
 
 encode_video(
@@ -288,6 +296,14 @@ encode_video(
 
 result = decode_video("salida.mkv")
 print(result["texto_reconstruido"])
+
+Output example:
+
+{
+  "chunks": ["Testeando MixGram"],
+  "embeddings": [...],
+  "texto_reconstruido": "Testeando MixGram"
+}
 ```
 
 Vea en [Example demo_mixgram.py](/examples/demo_mixgram.py) para entender como usar importando informaciones de un archivo TXT y encontrar el mejor chunk por similaridad.
